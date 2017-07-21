@@ -1,3 +1,14 @@
-# Hash me please
+[Ссылка на задание](https://ringzer0team.com/challenges/13)
 
-Task: You have 2 seconds to hash message using sha512 algorithm
+# О задании
+
+На странице задания даётся сообщение:
+```
+You have 2 seconds to hash this message using sha512 algorithm
+Send the answer back using https://ringzer0team.com/challenges/13/[your_hash]
+
+----- BEGIN MESSAGE -----
+lNFJwxoUmVNJe48MNc7pBl9Rk6p1MVoYyUxViMGuxj3Ce2eR4c7wn7ey4tqHfFvEqTpywWST6MlaFqSAsQWGN15HkleqQAU7kavGWeqTQCUlTCLbiyIWpDtAOyQvZAs9BOGnSW7ypRK8jmasLIe0byrQX7cNyvMZ9jdR6aglSQj13jkERpvTNMABKDe9YRYY02FW3L8LshDmqOR83cSHPj8pMcoATdoK6UxZwvBPC41TIISCKB9qK7FmaUMUY1vUMSJ8dbNG5FqEd97OA64a4Am5kZP8RbTtTtrXu5uqALUEKSiaOdaJDnEOckNUlwd5PvT9rdpRPampSvpxyq62EBGGLkrXGuSlQCl7GAPlB1AkmQHL7EDB5a8GkpuRJc3qEenbF3m6UMg7tOJqidSddQKo545F7YWC39Dy3PuNsBLMfk3onLrrr2GnWCTUrGmkFPIyv3cOvOqBZjPdU7ucZ1qLtavLGIVcouBJoEnKiEb7NQbxOwADnRfHRAio84qnpSWEmaevEfthWuFAQ643N9BvzKJyEZLUHyoUzsf3yyblSHLyEFshFUC4ubtY15IzuXjTfoNDMOOvmqUQWdYrXqmhsG6kCFJWsSGy7j1KYG5aXQRJTF1HWdOeKLochYZAHvYEFQetmau9QbJAHA7tEMyfnNhvB7V8sJDXpIhCIBCpDbPaCNt7pScDvkYXhJVAipnyXv0wWsLqurqX4KVksYNO8BBganGjCUHqgxM2QoiaFzYA9JKsyn6xPyDPLaYeVvu1T7Uzl3AQsohsYRKn5HKL6dqIefM0B7Rk4BKfvaWNp35eLGrHe1ia5zIaEl06iIhdaRivR487Y4czAt6EleFhEdh8o84xGbAGTI1BD0yrUARkUOP6TkdnnlmCjhZQjqm2Yets4SKOjrZ46E0PO432ffvpml5vBinqmHIgpiUzAJtxdjcSe5Ljb6znhvJJDWZPuxVJGG87fsujBx2FtEPvAfIIAhh447JovvY11XZ7fkhHIad2ETn4YVDp3LjY
+----- END MESSAGE -----
+```
+В течении 2 секунд необходимо получить это сообщение, вычислить его хэш-значение и отправить его на сервер, который в случае удачи вернёт флаг.
