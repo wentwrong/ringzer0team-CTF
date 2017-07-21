@@ -12,3 +12,10 @@ lNFJwxoUmVNJe48MNc7pBl9Rk6p1MVoYyUxViMGuxj3Ce2eR4c7wn7ey4tqHfFvEqTpywWST6MlaFqSA
 ----- END MESSAGE -----
 ```
 В течении 2 секунд необходимо получить это сообщение, вычислить его хэш-значение и отправить его на сервер, который в случае удачи вернёт флаг.
+
+# О скрипте 
+Скрипт использует requests (для get-запросов):
+```
+pip3 install -r requirements.txt && python3 challenge-1.py
+```
+*(перед запуском необходимо изменить параметр session_id на свое значение, которое сохраняется в cookie-value PHPSESSID на сайте после авторизации)*
